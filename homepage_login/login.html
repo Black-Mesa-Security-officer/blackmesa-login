@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Black Mesa Administrative Network</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    body {
+      margin: 0;
+      background-color: #0c0f14;
+      color: #dcdcdc;
+      font-family: Arial, Helvetica, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .login-container {
+      width: 420px;
+      background-color: #151922;
+      border: 2px solid #3a6ea5;
+      box-shadow: 0 0 25px rgba(58,110,165,0.4);
+      padding: 40px;
+    }
+
+    h1 {
+      text-align: center;
+      margin: 0;
+      font-size: 22px;
+      letter-spacing: 1px;
+    }
+
+    .subtitle {
+      text-align: center;
+      font-size: 12px;
+      color: #9bb7d4;
+      margin: 8px 0 30px;
+    }
+
+    label {
+      font-size: 13px;
+      display: block;
+      margin-bottom: 6px;
+      color: #bfcde0;
+    }
+
+    input {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 22px;
+      background-color: #0e131b;
+      border: 1px solid #2c3e55;
+      color: #dcdcdc;
+    }
+
+    input:disabled {
+      color: #9aa7b5;
+    }
+
+    button {
+      width: 100%;
+      padding: 12px;
+      background-color: #3a6ea5;
+      border: none;
+      color: #ffffff;
+      font-weight: bold;
+      font-size: 14px;
+      cursor: pointer;
+      letter-spacing: 0.5px;
+    }
+
+    button:hover {
+      background-color: #4b84c4;
+    }
+
+    .warning {
+      margin-top: 25px;
+      font-size: 11px;
+      text-align: center;
+      color: #ff6666;
+      line-height: 1.5;
+    }
+
+    .footer-note {
+      margin-top: 15px;
+      font-size: 10px;
+      text-align: center;
+      color: #7f8fa3;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="login-container">
+    <h1>BLACK MESA</h1>
+    <div class="subtitle">
+      Administrative Directorate Network<br>
+      Secure Internal Access
+    </div>
+
+    <!-- 🔗 외부 사이트로 바로 이동 -->
+    <form action="https://black-mesa-security-officer.github.io/blackmesa-mainsite/">
+      <label>ADMINISTRATOR ID</label>
+      <input type="text" value="W.BREEN" disabled>
+
+      <label>AUTHENTICATION KEY</label>
+      <input type="password" value="●●●●●●●●●●" disabled>
+
+      <button type="submit">AUTHORIZE ACCESS</button>
+    </form>
+
+    <div class="warning">
+      UNAUTHORIZED ACCESS TO THIS SYSTEM<br>
+      WILL BE CONSIDERED A FEDERAL OFFENSE
+    </div>
+
+    <div class="footer-note">
+      Black Mesa Administrative Directorate (B.M.A.D.)<br>
+      Stability through Cooperation
+    </div>
+  </div>
+
+</body>
+</html>
